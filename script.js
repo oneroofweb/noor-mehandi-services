@@ -189,12 +189,16 @@ $(document).ready(function() {
     var $mobileLinks = $('.mobile-link');
 
     /**
-     * Opens the mobile off-canvas menu and locks body scroll.
+     * Opens the mobile off-canvas menu and locks body scroll reliably (iOS fix).
      */
     function openMobileMenu() {
         $overlay.removeClass('opacity-0 pointer-events-none').addClass('opacity-100 pointer-events-auto');
         $drawer.removeClass('translate-x-full');
-        $('body').addClass('overflow-hidden');
+        $('body, html').css({
+            'overflow': 'hidden',
+            'height': '100vh',
+            'touch-action': 'none'
+        });
     }
 
     /**
@@ -203,7 +207,11 @@ $(document).ready(function() {
     function closeMobileMenu() {
         $overlay.removeClass('opacity-100 pointer-events-auto').addClass('opacity-0 pointer-events-none');
         $drawer.addClass('translate-x-full');
-        $('body').removeClass('overflow-hidden');
+        $('body, html').css({
+            'overflow': '',
+            'height': '',
+            'touch-action': ''
+        });
     }
 
     // Bind event listeners for mobile menu interactions
