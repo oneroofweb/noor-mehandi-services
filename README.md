@@ -1,7 +1,8 @@
 # ✨ Noor Mehndi Art - Premium Bridal Mehndi Services
 
-![Hero Banner](images/hero/hero-bridal-image.webp)
-
+<div align="center">
+  <img src="mockup.png" alt="Website Mockup" width="800" style="max-width: 100%;">
+</div>
 Welcome to the official repository for **Noor Mehndi Art**, a premium frontend landing page designed to showcase bridal mehndi (henna) services. The website features a luxurious, high-end aesthetic tailored for brides and event planners looking for exquisite and intricate henna designs.
 
 ---
