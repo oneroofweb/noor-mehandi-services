@@ -1,0 +1,1296 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Noor Mehndi Art | Premium Bridal Mehndi</title>
+    <meta name="description" content="Noor Mehndi Art offers premium bridal mehndi, intricate designs, and beautiful henna patterns for weddings, engagements, and special celebrations." />
+    <meta name="keywords" content="Bridal Mehndi, Noor Mehndi Art, Mehndi Artist, Henna Designs, Wedding Mehndi, Engagement Mehndi, Custom Mehndi" />
+    <meta name="author" content="Noor Mehndi Art" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+      media="print" onload="this.media='all'"
+    />
+    <noscript>
+      <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    </noscript>
+
+    <!-- FontAwesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      media="print" onload="this.media='all'"
+    />
+    <noscript>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    </noscript>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: "var(--color-primary)",
+              accent: "var(--color-accent)",
+              textMain: "var(--color-text-main)",
+              textMuted: "var(--color-text-muted)",
+              bgMain: "var(--color-bg-main)",
+            },
+            fontFamily: {
+              heading: ["var(--font-heading)", "serif"],
+              body: ["var(--font-body)", "sans-serif"],
+            },
+          },
+        },
+      };
+    </script>
+    <style>
+      :root {
+        /* MASTER VARIABLES FOR GLOBAL CHANGES */
+        --color-primary: #731626;      /* Deep Maroon */
+        --color-accent: #c0954f;       /* Gold */
+        --color-text-main: #2e2e2e;    /* Dark Gray/Black */
+        --color-text-muted: #666666;   /* Light Gray */
+        --color-bg-main: #fbf4ed;      /* Soft Cream/Ivory */
+        
+        --font-heading: "Playfair Display";
+        --font-body: "Poppins";
+
+        /* GLOBAL SECTION SPACING */
+        --section-py-mobile: 5rem;    /* 80px */
+        --section-py-tablet: 6rem;    /* 96px */
+        --section-py-desktop: 7rem;   /* 112px */
+
+        /* GLOBAL HEADING SIZES */
+        --heading-size-mobile: 1.8rem;
+        --heading-size-tablet: 2.2rem;
+        --heading-size-desktop: 2.8rem; /* Desktop global font size */
+      }
+
+      body {
+        font-family: var(--font-body), sans-serif;
+        background-color: var(--color-bg-main);
+      }
+
+      /* Global Section Spacing Utility */
+      .global-section-pad {
+        padding-top: var(--section-py-mobile);
+        padding-bottom: var(--section-py-mobile);
+      }
+      @media (min-width: 640px) {
+        .global-section-pad {
+          padding-top: var(--section-py-tablet);
+          padding-bottom: var(--section-py-tablet);
+        }
+      }
+      @media (min-width: 1024px) {
+        .global-section-pad {
+          padding-top: var(--section-py-desktop);
+          padding-bottom: var(--section-py-desktop);
+        }
+      }
+
+      /* Global Heading Utility */
+      .global-heading {
+        font-family: var(--font-heading), serif;
+        font-weight: 700;
+        color: var(--color-primary);
+        line-height: 1.1;
+        letter-spacing: -0.025em; /* equivalent to tracking-tight */
+        font-size: var(--heading-size-mobile);
+      }
+      @media (min-width: 640px) {
+        .global-heading {
+          font-size: var(--heading-size-tablet);
+        }
+      }
+      @media (min-width: 1024px) {
+        .global-heading {
+          font-size: var(--heading-size-desktop);
+        }
+      }
+
+      /* Floral corner graphics */
+      .floral-bg-left {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url("images/hero-bg.webp");
+        background-size: cover;
+        background-position: left center;
+        background-repeat: no-repeat;
+        pointer-events: none;
+        z-index: 0;
+      }
+
+      /* Hero Image Fade Mask */
+      @media (min-width: 1024px) {
+        .hero-image-mask {
+          -webkit-mask-image: linear-gradient(to right, transparent 0%, black 15%);
+          mask-image: linear-gradient(to right, transparent 0%, black 15%);
+        }
+      }
+      @media (max-width: 1023px) {
+        .hero-image-mask {
+          -webkit-mask-image: linear-gradient(to bottom, transparent 0%, black 15%);
+          mask-image: linear-gradient(to bottom, transparent 0%, black 15%);
+        }
+      }
+    </style>
+  </head>
+  <body class="antialiased overflow-x-hidden">
+    <!-- WRAPPER FOR SEAMLESS BACKGROUND -->
+    <div class="relative w-full bg-bgMain overflow-hidden lg:h-screen lg:flex lg:flex-col">
+      <!-- Shared Floral Background for Header & Hero -->
+      <div class="absolute inset-0 w-full h-full z-0 pointer-events-none overflow-hidden">
+        <!-- Desktop Background -->
+        <img
+          src="images/hero/hero-floral-pattern.webp" alt="Floral Mandala Background"
+          alt="Floral Background"
+          class="hidden lg:block w-full h-full object-cover opacity-[0.35] mix-blend-multiply"
+        />
+        
+        <!-- Mobile Background -->
+        <img
+          src="images/hero/hero-floral-pattern.webp" alt="Floral Mandala Background"
+          alt="Floral Background"
+          class="lg:hidden absolute inset-0 w-full h-full object-cover object-[15%_top] opacity-[0.25] mix-blend-multiply"
+        />
+      </div>
+
+      <!-- HEADER SECTION -->
+      <header
+        id="main-header" class="fixed top-0 left-0 w-full z-[100] bg-transparent border-b border-transparent transition-all duration-300"
+      >
+        <div
+          id="header-inner" class="max-w-[1400px] mx-auto px-4 lg:px-8 flex justify-between items-center h-[90px] transition-all duration-300"
+        >
+          <!-- Logo -->
+          <a href="#" class="flex items-center gap-3">
+            <svg
+              width="45"
+              height="45"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="#731626"
+              stroke-width="1.2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path
+                d="M12 22c0 0 5-3 5-8s-3-6-5-10c-2 4-5 5-5 10s5 8 5 8z"
+                fill="rgba(115,22,38,0.05)"
+              />
+              <path d="M12 22c0 0 8-4 9-11s-3-6-6-6c-2 0-3 3-3 3" />
+              <path d="M12 22c0 0-8-4-9-11s3-6 6-6c2 0 3 3 3 3" />
+              <path d="M12 22c0 0 11-1 11-7s-5-4-8-4c-2 0-3 2-3 2" />
+              <path d="M12 22c0 0-11-1-11-7s5-4 8-4c2 0 3 2 3 2" />
+            </svg>
+            <div class="flex flex-col justify-center mt-1">
+              <span
+                class="font-heading text-[1.45rem] font-bold text-primary leading-none mb-1"
+                >Noor Mehndi Art</span
+              >
+              <span
+                class="text-[0.62rem] font-semibold tracking-[2.5px] text-accent uppercase flex items-center justify-start gap-1.5"
+              >
+                Bridal <span class="text-[0.4rem]">&bull;</span> Wedding
+                <span class="text-[0.4rem]">&bull;</span> Henna Art
+              </span>
+            </div>
+          </a>
+
+          <!-- Center Navigation -->
+          <nav class="hidden lg:flex gap-8 items-center">
+            <a href="#" class="text-[13px] font-bold text-primary">Home</a>
+            <a
+              href="#about"
+              class="text-[13px] font-bold text-textMain hover:text-primary transition"
+              >About</a
+            >
+            <a
+              href="#services"
+              class="text-[13px] font-bold text-textMain hover:text-primary transition"
+              >Services</a
+            >
+            <a
+              href="#gallery"
+              class="text-[13px] font-bold text-textMain hover:text-primary transition"
+              >Gallery</a
+            >
+            <a
+              href="#packages"
+              class="text-[13px] font-bold text-textMain hover:text-primary transition"
+              >Packages</a
+            >
+            <a
+              href="#testimonials"
+              class="text-[13px] font-bold text-textMain hover:text-primary transition"
+              >Testimonials</a
+            >
+            <a
+              href="#booking-faq"
+              class="text-[13px] font-bold text-textMain hover:text-primary transition"
+              >FAQ</a
+            >
+            <a
+              href="#contact"
+              class="text-[13px] font-bold text-textMain hover:text-primary transition"
+              >Contact</a
+            >
+          </nav>
+
+          <div class="hidden lg:flex items-center gap-3">
+            <a
+              href="https://wa.me/919565365773?text=Hello%20Noor%20Mehndi%20Art,%20I%20want%20to%20book%20a%20date."
+              target="_blank"
+              class="bg-primary text-white px-5 py-2.5 rounded-md font-semibold text-[13px] transition hover:bg-primary/90 flex items-center gap-2"
+            >
+              <i class="far fa-calendar-alt text-base"></i> Book Your Date
+            </a>
+          </div>
+
+          <!-- Mobile Toggle -->
+          <button id="mobile-menu-btn" class="lg:hidden text-primary text-2xl transition hover:text-[#D5A770]">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+      </header>
+
+      <!-- OFF-CANVAS MOBILE MENU -->
+      <div id="mobile-menu-overlay" class="fixed inset-0 bg-black/60 z-[105] opacity-0 pointer-events-none transition-opacity duration-300"></div>
+      <div id="mobile-menu-drawer" class="fixed top-0 right-0 h-full w-[85%] max-w-[350px] bg-bgMain z-[110] transform translate-x-full transition-transform duration-400 ease-in-out shadow-[-10px_0_30px_rgba(0,0,0,0.15)] flex flex-col">
+        <!-- Drawer Header -->
+        <div class="flex items-center justify-between p-6 border-b border-[#D5A770]/20">
+            <span class="font-heading text-[1.5rem] font-bold text-primary">Noor Mehndi</span>
+            <button id="close-menu-btn" class="text-primary text-2xl w-10 h-10 rounded-full flex items-center justify-center hover:bg-primary/10 transition">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <!-- Drawer Links -->
+        <nav class="flex-1 overflow-y-auto py-8 px-6 flex flex-col gap-6 relative">
+            <div class="absolute right-[-50px] bottom-[-50px] w-[250px] h-[250px] opacity-[0.05] pointer-events-none mix-blend-multiply" 
+                 style="background: url('images/about/about-mandala-bg.webp') no-repeat center center / contain;">
+            </div>
+            
+            <a href="#" class="mobile-link text-[18px] font-bold text-textMain hover:text-primary transition-colors flex items-center justify-between group">
+                Home <i class="fas fa-chevron-right text-[12px] opacity-0 group-hover:opacity-100 transition-opacity text-accent"></i>
+            </a>
+            <a href="#about" class="mobile-link text-[18px] font-bold text-textMain hover:text-primary transition-colors flex items-center justify-between group">
+                About <i class="fas fa-chevron-right text-[12px] opacity-0 group-hover:opacity-100 transition-opacity text-accent"></i>
+            </a>
+            <a href="#services" class="mobile-link text-[18px] font-bold text-textMain hover:text-primary transition-colors flex items-center justify-between group">
+                Services <i class="fas fa-chevron-right text-[12px] opacity-0 group-hover:opacity-100 transition-opacity text-accent"></i>
+            </a>
+            <a href="#gallery" class="mobile-link text-[18px] font-bold text-textMain hover:text-primary transition-colors flex items-center justify-between group">
+                Gallery <i class="fas fa-chevron-right text-[12px] opacity-0 group-hover:opacity-100 transition-opacity text-accent"></i>
+            </a>
+            <a href="#booking-faq" class="mobile-link text-[18px] font-bold text-textMain hover:text-primary transition-colors flex items-center justify-between group">
+                FAQ <i class="fas fa-chevron-right text-[12px] opacity-0 group-hover:opacity-100 transition-opacity text-accent"></i>
+            </a>
+            <a href="#contact" class="mobile-link text-[18px] font-bold text-textMain hover:text-primary transition-colors flex items-center justify-between group">
+                Contact <i class="fas fa-chevron-right text-[12px] opacity-0 group-hover:opacity-100 transition-opacity text-accent"></i>
+            </a>
+        </nav>
+        <!-- Drawer Footer -->
+        <div class="p-6 border-t border-[#D5A770]/20 bg-white/50">
+            <a href="https://wa.me/919565365773?text=Hello%20Noor%20Mehndi%20Art,%20I%20want%20to%20book%20a%20date." target="_blank" class="w-full bg-primary text-white py-3.5 rounded-lg font-bold text-[14px] flex items-center justify-center gap-2 mb-4 hover:bg-primary/90 transition">
+                <i class="far fa-calendar-alt text-base"></i> Book Now
+            </a>
+            <div class="flex justify-center gap-4">
+                <a href="https://instagram.com" target="_blank" class="w-10 h-10 rounded-full bg-white text-primary flex items-center justify-center shadow-sm border border-[#D5A770]/30"><i class="fab fa-instagram"></i></a>
+                <a href="https://wa.me/919565365773" target="_blank" class="w-10 h-10 rounded-full bg-white text-[#25D366] flex items-center justify-center shadow-sm border border-[#D5A770]/30"><i class="fab fa-whatsapp text-lg"></i></a>
+            </div>
+        </div>
+      </div>
+
+      <!-- ==========================================================================
+     HERO SECTION
+     Primary landing view with main CTA and background imagery
+     ========================================================================== -->
+      <section class="relative z-10 w-full flex flex-col lg:flex-row min-h-[600px] lg:flex-1 overflow-hidden pt-[90px]">
+        
+        <!-- Background Mandala Pattern -->
+        <div class="absolute left-[-150px] lg:left-[-300px] top-1/4 lg:top-1/2 -translate-y-1/2 w-[350px] lg:w-[700px] h-[350px] lg:h-[700px] opacity-[0.1] pointer-events-none mix-blend-multiply" 
+             style="background: url('images/about/about-mandala-bg.webp') no-repeat center center / contain;">
+        </div>
+
+        <!-- Left Content Area -->
+        <div class="w-full lg:w-[55%] flex justify-end relative z-10">
+          <div class="w-full max-w-[650px] px-6 lg:pl-12 lg:pr-12 xl:pl-4 xl:pr-16 py-12 lg:py-8 flex flex-col justify-center h-full">
+            
+            <!-- Eyebrow -->
+            <div class="text-primary text-[10px] sm:text-[10.5px] font-bold tracking-[3px] sm:tracking-[3.5px] uppercase mb-4 sm:mb-5 flex items-center gap-2 lg:gap-2.5">
+              BRIDAL <span class="text-[7px] lg:text-[8px]">&bull;</span> WEDDING <span class="text-[7px] lg:text-[8px]">&bull;</span> CELEBRATION
+            </div>
+
+            <!-- Headline -->
+            <h1 class="font-heading text-[2rem] sm:text-[2.5rem] lg:text-[2.8rem] xl:text-[3.2rem] text-primary font-bold leading-[1.1] mb-5 sm:mb-6 tracking-tight">
+              Beautiful Mehndi for<br />
+              Your Beautiful <span class="text-accent italic font-medium tracking-normal pr-2">Moments</span>
+            </h1>
+
+            <!-- Description -->
+            <p class="text-primary font-medium text-[15px] sm:text-[16px] mb-8 leading-[1.6] max-w-[480px]">
+              From intricate bridal mehndi to elegant designs for weddings, engagements and special celebrations — crafted with detail, creativity and love.
+            </p>
+
+            <!-- Buttons -->
+            <div class="flex flex-col sm:flex-row gap-4 mb-8 lg:mb-7">
+              <a href="https://wa.me/919565365773?text=Hello%20Noor%20Mehndi%20Art,%20I%20want%20to%20book%20a%20date." target="_blank" class="w-full sm:w-auto bg-primary text-white px-8 py-3.5 rounded-md font-semibold text-[14px] transition hover:bg-primary/90 flex items-center justify-center gap-2 shadow-md">
+                <i class="far fa-calendar-alt text-base"></i> Book Your Date <i class="fas fa-arrow-right text-[12px] ml-2"></i>
+              </a>
+              <a href="#gallery" class="w-full sm:w-auto bg-transparent border border-primary text-primary px-8 py-3.5 rounded-md font-semibold text-[14px] transition hover:bg-primary/5 flex items-center justify-center gap-2">
+                View Mehndi Designs <i class="fas fa-arrow-right text-[12px] ml-2"></i>
+              </a>
+            </div>
+
+            <!-- Bottom Trust Line -->
+            <div class="text-[11px] sm:text-[12px] font-semibold text-primary flex items-center flex-wrap gap-2 lg:gap-3">
+              Bridal Mehndi <span class="text-primary text-[6px] lg:text-[8px]">&bull;</span> Engagement <span class="text-primary text-[6px] lg:text-[8px]">&bull;</span> Party <span class="text-primary text-[6px] lg:text-[8px]">&bull;</span> Custom Designs            </div>
+          </div>
+        </div>
+
+        <!-- Right Image Area -->
+        <div class="w-full lg:w-[45%] h-[400px] sm:h-[500px] lg:h-auto relative overflow-hidden hero-image-mask">
+          <img
+            src="images/hero/hero-bridal-image.webp"
+            alt="Bridal Mehndi Image"
+            class="absolute inset-0 w-full h-full object-cover object-top lg:object-center"
+          />
+        </div>
+      </section>
+    </div>
+
+    <!-- ==========================================================================
+     TRUST STATISTICS STRIP
+     Key metrics and selling points
+     ========================================================================== -->
+    <section class="border-y border-primary/20 bg-bgMain py-10 relative z-20 overflow-hidden">
+        
+        <!-- Background Mandala Pattern -->
+        <div class="absolute right-[-100px] top-1/2 -translate-y-1/2 w-[250px] lg:w-[400px] h-[250px] lg:h-[400px] opacity-[0.08] pointer-events-none mix-blend-multiply" 
+             style="background: url('images/about/about-mandala-bg.webp') no-repeat center center / contain;">
+        </div>
+
+        <div class="max-w-[1400px] mx-auto px-4 lg:px-8 relative z-10">
+            <div class="grid grid-cols-2 lg:grid-cols-4 divide-y lg:divide-y-0 lg:divide-x divide-primary/20">
+                <!-- Item 1 -->
+                <div class="flex items-center justify-center gap-2 sm:gap-4 px-2 sm:px-4 py-6 lg:py-0">
+                    <i class="fas fa-users text-[1.6rem] sm:text-[2.2rem] text-accent opacity-90"></i>
+                    <div class="text-left">
+                        <div class="font-heading text-[1.4rem] sm:text-[1.7rem] lg:text-[2rem] font-bold text-primary leading-none mb-1 whitespace-nowrap">100+</div>
+                        <div class="text-[0.55rem] sm:text-[0.7rem] font-medium text-textMain uppercase tracking-[1px] whitespace-nowrap">Happy Brides</div>
+                    </div>
+                </div>
+                <!-- Item 2 -->
+                <div class="flex items-center justify-center gap-2 sm:gap-4 px-2 sm:px-4 py-6 lg:py-0">
+                    <i class="far fa-gem text-[1.6rem] sm:text-[2.2rem] text-accent opacity-90"></i>
+                    <div class="text-left">
+                        <div class="font-heading text-[1.4rem] sm:text-[1.7rem] lg:text-[2rem] font-bold text-primary leading-none mb-1 whitespace-nowrap">5+ Years</div>
+                        <div class="text-[0.55rem] sm:text-[0.7rem] font-medium text-textMain uppercase tracking-[1px] whitespace-nowrap">Mehndi Experience</div>
+                    </div>
+                </div>
+                <!-- Item 3 -->
+                <div class="flex items-center justify-center gap-2 sm:gap-4 px-2 sm:px-4 py-6 lg:py-0">
+                    <i class="fas fa-spa text-[1.6rem] sm:text-[2.2rem] text-accent opacity-90"></i>
+                    <div class="text-left">
+                        <div class="font-heading text-[1.4rem] sm:text-[1.7rem] lg:text-[2rem] font-bold text-primary leading-none mb-1 whitespace-nowrap">500+</div>
+                        <div class="text-[0.55rem] sm:text-[0.7rem] font-medium text-textMain uppercase tracking-[1px] whitespace-nowrap">Mehndi Designs</div>
+                    </div>
+                </div>
+                <!-- Item 4 -->
+                <div class="flex items-center justify-center gap-2 sm:gap-4 px-2 sm:px-4 py-6 lg:py-0">
+                    <i class="fas fa-shield-alt text-[1.6rem] sm:text-[2.2rem] text-accent opacity-90"></i>
+                    <div class="text-left">
+                        <div class="font-heading text-[1.4rem] sm:text-[1.7rem] lg:text-[2rem] font-bold text-primary leading-none mb-1 whitespace-nowrap">100%</div>
+                        <div class="text-[0.55rem] sm:text-[0.7rem] font-medium text-textMain uppercase tracking-[1px] whitespace-nowrap">Handcrafted Art</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. ABOUT THE ARTIST -->
+    <section class="global-section-pad relative bg-bgMain overflow-hidden" id="about">
+        <!-- Subtle floral background elements -->
+        <div class="absolute right-[-150px] lg:right-[-300px] top-1/2 -translate-y-1/2 w-[350px] lg:w-[700px] h-[350px] lg:h-[700px] opacity-[0.1] pointer-events-none mix-blend-multiply" 
+             style="background: url('images/about/about-mandala-bg.webp') no-repeat center center / contain;">
+        </div>
+        <div class="absolute left-[-150px] lg:left-[-250px] bottom-[-50px] lg:bottom-[-100px] w-[300px] lg:w-[500px] h-[300px] lg:h-[500px] opacity-[0.1] pointer-events-none mix-blend-multiply" 
+             style="background: url('images/about/about-mandala-bg.webp') no-repeat center center / contain;">
+        </div>
+        
+        <div class="max-w-[1400px] mx-auto px-4 lg:px-8">
+            <div class="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
+                
+                <!-- Left: Image Composition (Mockup Match) -->
+                <div class="flex gap-3 lg:gap-4 w-full max-w-[650px] mx-auto lg:ml-0 relative z-10">
+                    <!-- Thumbnails Column -->
+                    <div class="w-[35%] flex flex-col gap-3 lg:gap-4">
+                        <img loading="lazy" decoding="async" src="images/about/about-thumb-1.webp" alt="Mehndi artist at work" 
+                             alt="Mehndi Detail 1" 
+                             onclick="let temp = this.src; this.src = document.getElementById('aboutMainImg').src; document.getElementById('aboutMainImg').src = temp;"
+                             class="w-full h-1/2 object-cover rounded-xl lg:rounded-2xl border-[5px] lg:border-[6px] border-white shadow-sm cursor-pointer hover:opacity-90 transition duration-300">
+                        <img loading="lazy" decoding="async" src="images/about/about-thumb-2.webp" alt="Beautiful bridal mehndi design" 
+                             alt="Mehndi Detail 2" 
+                             onclick="let temp = this.src; this.src = document.getElementById('aboutMainImg').src; document.getElementById('aboutMainImg').src = temp;"
+                             class="w-full h-1/2 object-cover rounded-xl lg:rounded-2xl border-[5px] lg:border-[6px] border-white shadow-sm cursor-pointer hover:opacity-90 transition duration-300">
+                    </div>
+                    <!-- Main Image -->
+                    <div class="w-[65%]">
+                        <img id="aboutMainImg" loading="lazy" decoding="async" 
+                             src="images/about/about-main.webp" 
+                             alt="Main Artist Image" 
+                             class="w-full h-full min-h-[350px] lg:min-h-[450px] object-cover rounded-xl lg:rounded-2xl border-[5px] lg:border-[6px] border-white shadow-sm transition duration-300">
+                    </div>
+                </div>
+
+                <!-- Right: Text Content -->
+                <div class="relative z-10 lg:pl-4">
+                    <div class="text-primary text-[10.5px] font-bold tracking-[3px] uppercase mb-4 flex items-center gap-2.5">
+                        MEET YOUR MEHNDI ARTIST
+                    </div>
+                    
+                    <h2 class="global-heading mb-6">
+                        Turning Wedding Moments<br />Into Beautiful Memories
+                    </h2>
+                    
+                    <p class="text-textMain font-medium mb-10 text-[14.5px] lg:text-[15.5px] leading-[1.7] max-w-[600px]">
+                        Hi! I'm a passionate Mehndi Artist specializing in bridal and wedding mehndi. I love creating unique and personalized designs that make your special moments even more beautiful. With years of experience, I offer detailed, elegant and creative mehndi designs for every occasion.
+                    </p>
+                    
+                    <!-- Features List (Mockup Match) -->
+                    <div class="grid grid-cols-2 sm:grid-cols-3 xl:grid-cols-3 gap-y-6 gap-x-3 lg:gap-x-4 mb-10">
+                        <div class="flex items-center gap-2.5 lg:gap-3">
+                            <div class="w-[34px] h-[34px] lg:w-[38px] lg:h-[38px] shrink-0 rounded-full bg-[#EBDDBF] flex items-center justify-center text-primary text-[13px] lg:text-[14px]"><i class="fas fa-paint-brush"></i></div>
+                            <span class="text-[11.5px] lg:text-[12.5px] font-bold text-textMain leading-[1.3]">Personalized<br>Designs</span>
+                        </div>
+                        <div class="flex items-center gap-2.5 lg:gap-3">
+                            <div class="w-[34px] h-[34px] lg:w-[38px] lg:h-[38px] shrink-0 rounded-full bg-[#EBDDBF] flex items-center justify-center text-primary text-[13px] lg:text-[14px]"><i class="fas fa-spa"></i></div>
+                            <span class="text-[11.5px] lg:text-[12.5px] font-bold text-textMain leading-[1.3]">Hygienic<br>Application</span>
+                        </div>
+                        <div class="flex items-center gap-2.5 lg:gap-3">
+                            <div class="w-[34px] h-[34px] lg:w-[38px] lg:h-[38px] shrink-0 rounded-full bg-[#EBDDBF] flex items-center justify-center text-primary text-[13px] lg:text-[14px]"><i class="fas fa-certificate"></i></div>
+                            <span class="text-[11.5px] lg:text-[12.5px] font-bold text-textMain leading-[1.3]">Intricate<br>Detailing</span>
+                        </div>
+                        <div class="flex items-center gap-2.5 lg:gap-3">
+                            <div class="w-[34px] h-[34px] lg:w-[38px] lg:h-[38px] shrink-0 rounded-full bg-[#EBDDBF] flex items-center justify-center text-primary text-[13px] lg:text-[14px]"><i class="far fa-clock"></i></div>
+                            <span class="text-[11.5px] lg:text-[12.5px] font-bold text-textMain leading-[1.3]">On-Time<br>Service</span>
+                        </div>
+                        <div class="flex items-center gap-2.5 lg:gap-3">
+                            <div class="w-[34px] h-[34px] lg:w-[38px] lg:h-[38px] shrink-0 rounded-full bg-[#EBDDBF] flex items-center justify-center text-primary text-[13px] lg:text-[14px]"><i class="fas fa-ring"></i></div>
+                            <span class="text-[11.5px] lg:text-[12.5px] font-bold text-textMain leading-[1.3]">Custom<br>Bridal Designs</span>
+                        </div>
+                        <div class="flex items-center gap-2.5 lg:gap-3">
+                            <div class="w-[34px] h-[34px] lg:w-[38px] lg:h-[38px] shrink-0 rounded-full bg-[#EBDDBF] flex items-center justify-center text-primary text-[13px] lg:text-[14px]"><i class="fas fa-leaf"></i></div>
+                            <span class="text-[11.5px] lg:text-[12.5px] font-bold text-textMain leading-[1.3]">100% Natural<br>Henna</span>
+                        </div>
+                    </div>
+                    
+                    <!-- Button -->
+                    <a href="https://wa.me/919565365773?text=Hello%20Noor%20Mehndi%20Art,%20I%20want%20to%20know%20more." target="_blank" class="inline-flex bg-primary text-white px-8 py-3.5 rounded-md font-semibold text-[14px] transition hover:bg-primary/90 items-center justify-center gap-2 shadow-md">
+                        Know More About Me <i class="fas fa-arrow-right text-[12px] ml-1"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. SERVICES SECTION -->
+    <section class="global-section-pad !pt-10 lg:!pt-12 relative bg-bgMain overflow-hidden" id="services">
+        <!-- Subtle floral background elements -->
+        <div class="absolute left-[-150px] lg:left-[-250px] top-[-50px] lg:top-0 w-[300px] lg:w-[500px] h-[300px] lg:h-[500px] opacity-[0.1] pointer-events-none mix-blend-multiply" 
+             style="background: url('images/about/about-mandala-bg.webp') no-repeat center center / contain;">
+        </div>
+        <div class="absolute right-[-150px] lg:right-[-250px] top-[-50px] lg:top-0 w-[300px] lg:w-[500px] h-[300px] lg:h-[500px] opacity-[0.1] pointer-events-none mix-blend-multiply" 
+             style="background: url('images/about/about-mandala-bg.webp') no-repeat center center / contain;">
+        </div>
+
+        <div class="max-w-[1400px] mx-auto px-4 lg:px-8 relative z-10">
+            <div class="text-center max-w-2xl mx-auto mb-12">
+                <div class="text-primary text-[10.5px] font-bold tracking-[3px] uppercase mb-3">
+                    OUR SERVICES
+                </div>
+                <h2 class="global-heading mb-4 text-center mx-auto max-w-[900px]">
+                    Mehndi Services For Every Celebration
+                </h2>
+                <p class="text-textMain font-medium text-[14.5px]">
+                    Beautifully designed Mehndi for every special occasion.
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-5 lg:gap-4 xl:gap-6">
+                <!-- Card 1 -->
+                <div class="bg-white rounded-xl overflow-hidden shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-md group flex flex-col cursor-pointer">
+                    <div class="w-full h-[160px] xl:h-[180px] overflow-hidden relative">
+                        <img loading="lazy" decoding="async" src="images/services/service-bridal.webp" alt="Bridal Mehndi" class="w-full h-full object-cover transition duration-700 group-hover:scale-105">
+                    </div>
+                    <div class="p-4 xl:p-5 flex items-center justify-between lg:flex-col lg:items-start lg:justify-start gap-2 lg:gap-4 bg-white">
+                        <div class="flex flex-col">
+                            <h3 class="font-bold text-[14.5px] xl:text-[15.5px] text-[#2c1810] mb-0.5">Bridal Mehndi</h3>
+                            <p class="text-[11px] xl:text-[12px] text-gray-500 font-medium leading-snug">Intricate & Traditional<br/>Bridal Designs</p>
+                        </div>
+                        <a href="https://wa.me/919565365773?text=Hello%20Noor%20Mehndi%20Art,%20I%20want%20to%20book%20the%20Bridal%20Mehndi%20service." target="_blank" class="shrink-0 bg-primary hover:bg-[#D5A770] text-white shadow-sm px-4 xl:px-5 py-2 xl:py-2.5 rounded-full flex items-center lg:justify-center lg:w-full gap-2 text-[12px] xl:text-[13px] font-bold transition-colors">
+                            <i class="fab fa-whatsapp text-[14px] xl:text-[15px]"></i> Book
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="bg-white rounded-xl overflow-hidden shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-md group flex flex-col cursor-pointer">
+                    <div class="w-full h-[160px] xl:h-[180px] overflow-hidden relative">
+                        <img loading="lazy" decoding="async" src="images/services/service-engagement.webp" alt="Engagement Mehndi" class="w-full h-full object-cover transition duration-700 group-hover:scale-105">
+                    </div>
+                    <div class="p-4 xl:p-5 flex items-center justify-between lg:flex-col lg:items-start lg:justify-start gap-2 lg:gap-4 bg-white">
+                        <div class="flex flex-col">
+                            <h3 class="font-bold text-[14.5px] xl:text-[15.5px] text-[#2c1810] mb-0.5">Engagement Mehndi</h3>
+                            <p class="text-[11px] xl:text-[12px] text-gray-500 font-medium leading-snug">Elegant & Modern<br/>Designs</p>
+                        </div>
+                        <a href="https://wa.me/919565365773?text=Hello%20Noor%20Mehndi%20Art,%20I%20want%20to%20book%20the%20Engagement%20Mehndi%20service." target="_blank" class="shrink-0 bg-primary hover:bg-[#D5A770] text-white shadow-sm px-4 xl:px-5 py-2 xl:py-2.5 rounded-full flex items-center lg:justify-center lg:w-full gap-2 text-[12px] xl:text-[13px] font-bold transition-colors">
+                            <i class="fab fa-whatsapp text-[14px] xl:text-[15px]"></i> Book
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="bg-white rounded-xl overflow-hidden shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-md group flex flex-col cursor-pointer">
+                    <div class="w-full h-[160px] xl:h-[180px] overflow-hidden relative">
+                        <img loading="lazy" decoding="async" src="images/services/service-party.webp" alt="Party Mehndi" class="w-full h-full object-cover transition duration-700 group-hover:scale-105">
+                    </div>
+                    <div class="p-4 xl:p-5 flex items-center justify-between lg:flex-col lg:items-start lg:justify-start gap-2 lg:gap-4 bg-white">
+                        <div class="flex flex-col">
+                            <h3 class="font-bold text-[14.5px] xl:text-[15.5px] text-[#2c1810] mb-0.5">Party Mehndi</h3>
+                            <p class="text-[11px] xl:text-[12px] text-gray-500 font-medium leading-snug">Simple & Stylish<br/>Designs</p>
+                        </div>
+                        <a href="https://wa.me/919565365773?text=Hello%20Noor%20Mehndi%20Art,%20I%20want%20to%20book%20the%20Party%20Mehndi%20service." target="_blank" class="shrink-0 bg-primary hover:bg-[#D5A770] text-white shadow-sm px-4 xl:px-5 py-2 xl:py-2.5 rounded-full flex items-center lg:justify-center lg:w-full gap-2 text-[12px] xl:text-[13px] font-bold transition-colors">
+                            <i class="fab fa-whatsapp text-[14px] xl:text-[15px]"></i> Book
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="bg-white rounded-xl overflow-hidden shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-md group flex flex-col cursor-pointer">
+                    <div class="w-full h-[160px] xl:h-[180px] overflow-hidden relative">
+                        <img loading="lazy" decoding="async" src="images/services/service-family.webp" alt="Family Mehndi" class="w-full h-full object-cover transition duration-700 group-hover:scale-105">
+                    </div>
+                    <div class="p-4 xl:p-5 flex items-center justify-between lg:flex-col lg:items-start lg:justify-start gap-2 lg:gap-4 bg-white">
+                        <div class="flex flex-col">
+                            <h3 class="font-bold text-[14.5px] xl:text-[15.5px] text-[#2c1810] mb-0.5">Family Mehndi</h3>
+                            <p class="text-[11px] xl:text-[12px] text-gray-500 font-medium leading-snug">Beautiful Designs<br/>for Everyone</p>
+                        </div>
+                        <a href="https://wa.me/919565365773?text=Hello%20Noor%20Mehndi%20Art,%20I%20want%20to%20book%20the%20Family%20Mehndi%20service." target="_blank" class="shrink-0 bg-primary hover:bg-[#D5A770] text-white shadow-sm px-4 xl:px-5 py-2 xl:py-2.5 rounded-full flex items-center lg:justify-center lg:w-full gap-2 text-[12px] xl:text-[13px] font-bold transition-colors">
+                            <i class="fab fa-whatsapp text-[14px] xl:text-[15px]"></i> Book
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Card 5 -->
+                <div class="bg-white rounded-xl overflow-hidden shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-md group flex flex-col cursor-pointer">
+                    <div class="w-full h-[160px] xl:h-[180px] overflow-hidden relative">
+                        <img loading="lazy" decoding="async" src="images/services/service-custom.webp" alt="Custom Designs" class="w-full h-full object-cover transition duration-700 group-hover:scale-105">
+                    </div>
+                    <div class="p-4 xl:p-5 flex items-center justify-between lg:flex-col lg:items-start lg:justify-start gap-2 lg:gap-4 bg-white">
+                        <div class="flex flex-col">
+                            <h3 class="font-bold text-[14.5px] xl:text-[15.5px] text-[#2c1810] mb-0.5">Custom Designs</h3>
+                            <p class="text-[11px] xl:text-[12px] text-gray-500 font-medium leading-snug">Your Style, Our<br/>Creativity</p>
+                        </div>
+                        <a href="https://wa.me/919565365773?text=Hello%20Noor%20Mehndi%20Art,%20I%20want%20to%20book%20a%20Custom%20Mehndi%20Design." target="_blank" class="shrink-0 bg-primary hover:bg-[#D5A770] text-white shadow-sm px-4 xl:px-5 py-2 xl:py-2.5 rounded-full flex items-center lg:justify-center lg:w-full gap-2 text-[12px] xl:text-[13px] font-bold transition-colors">
+                            <i class="fab fa-whatsapp text-[14px] xl:text-[15px]"></i> Book
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- 6. GALLERY SECTION -->
+    <section class="global-section-pad relative bg-primary overflow-hidden" id="gallery">
+        <!-- Floral Background Elements -->
+        <div class="absolute left-0 top-0 w-full h-full opacity-10 pointer-events-none mix-blend-overlay">
+            <img loading="lazy" decoding="async" src="images/hero/hero-floral-pattern.webp" alt="Floral Mandala Background" class="w-full h-full object-cover opacity-50" />
+        </div>
+
+        <div class="max-w-[1400px] mx-auto px-4 lg:px-8 relative z-10">
+            
+            <!-- Mobile Header (Visible only on mobile/tablet) -->
+            <div class="flex lg:hidden flex-col items-center text-center mb-8 gap-6">
+                <div>
+                    <div class="text-white/80 font-bold tracking-[3px] uppercase mb-3 text-[10.5px]">
+                        OUR GALLERY
+                    </div>
+                    <h2 class="global-heading !text-white mb-2">
+                        Latest Mehndi Designs
+                    </h2>
+                    <p class="text-white/80 font-medium text-[14.5px]">
+                        A glimpse of our recent bridal and wedding mehndi work.
+                    </p>
+                </div>
+                
+                <!-- Carousel Controls (Mobile) -->
+                <div class="flex items-center gap-4">
+                    <button class="gallery-prev w-10 h-10 bg-white rounded-full flex items-center justify-center text-primary shadow-md hover:scale-105 transition duration-300"><i class="fas fa-chevron-left text-[14px]"></i></button>
+                    <button class="gallery-next w-10 h-10 bg-white rounded-full flex items-center justify-center text-primary shadow-md hover:scale-105 transition duration-300"><i class="fas fa-chevron-right text-[14px]"></i></button>
+                </div>
+            </div>
+
+            <div class="flex flex-col lg:grid lg:grid-cols-12 gap-8 lg:gap-16 items-center">
+                
+                <!-- Left Side: Text & Thumbnails -->
+                <div class="lg:col-span-5 flex flex-col order-2 lg:order-1 w-full">
+                    
+                    <!-- Desktop Header (Visible only on desktop) -->
+                    <div class="hidden lg:flex flex-col text-left mb-12">
+                        <div class="text-white/80 font-bold tracking-[3px] uppercase mb-3 text-[10.5px]">
+                            OUR GALLERY
+                        </div>
+                        <h2 class="global-heading !text-white mb-4">
+                            Latest Mehndi Designs
+                        </h2>
+                        <p class="text-white/80 font-medium text-[14.5px] mb-6">
+                            A glimpse of our recent bridal and wedding mehndi work. Click on any design to view it larger.
+                        </p>
+                        
+                        <!-- Carousel Controls (Desktop) -->
+                        <div class="flex items-center gap-4">
+                            <button class="gallery-prev w-11 h-11 bg-white rounded-full flex items-center justify-center text-primary shadow-md hover:scale-105 transition duration-300"><i class="fas fa-chevron-left text-[14px]"></i></button>
+                            <button class="gallery-next w-11 h-11 bg-white rounded-full flex items-center justify-center text-primary shadow-md hover:scale-105 transition duration-300"><i class="fas fa-chevron-right text-[14px]"></i></button>
+                        </div>
+                    </div>
+
+                    <!-- Thumbnail Carousel -->
+                    <div class="relative w-full">
+                        <div class="owl-carousel owl-theme" id="gallery-carousel">
+                            <!-- Item 1 -->
+                            <div class="item cursor-pointer" data-gallery-idx="0" onclick="setGalleryImage(0)">
+                                <img loading="lazy" decoding="async" src="images/gallery/gallery-1.webp" alt="Mehndi Design Portfolio 1" class="w-full h-[80px] sm:h-[120px] lg:h-[110px] object-cover rounded-lg transition-all duration-300 shadow-sm border-[3px] border-white">
+                            </div>
+                            <!-- Item 2 -->
+                            <div class="item cursor-pointer" data-gallery-idx="1" onclick="setGalleryImage(1)">
+                                <img loading="lazy" decoding="async" src="images/gallery/gallery-2.webp" alt="Mehndi Design Portfolio 2" class="w-full h-[80px] sm:h-[120px] lg:h-[110px] object-cover rounded-lg transition-all duration-300 shadow-sm border-[3px] border-white">
+                            </div>
+                            <!-- Item 3 -->
+                            <div class="item cursor-pointer" data-gallery-idx="2" onclick="setGalleryImage(2)">
+                                <img loading="lazy" decoding="async" src="images/gallery/gallery-3.webp" alt="Mehndi Design Portfolio 3" class="w-full h-[80px] sm:h-[120px] lg:h-[110px] object-cover rounded-lg transition-all duration-300 shadow-sm border-[3px] border-white">
+                            </div>
+                            <!-- Item 4 -->
+                            <div class="item cursor-pointer" data-gallery-idx="3" onclick="setGalleryImage(3)">
+                                <img loading="lazy" decoding="async" src="images/gallery/gallery-4.webp" alt="Mehndi Design Portfolio 4" class="w-full h-[80px] sm:h-[120px] lg:h-[110px] object-cover rounded-lg transition-all duration-300 shadow-sm border-[3px] border-white">
+                            </div>
+                            <!-- Item 5 -->
+                            <div class="item cursor-pointer" data-gallery-idx="4" onclick="setGalleryImage(4)">
+                                <img loading="lazy" decoding="async" src="images/gallery/gallery-5.webp" alt="Mehndi Design Portfolio 5" class="w-full h-[80px] sm:h-[120px] lg:h-[110px] object-cover rounded-lg transition-all duration-300 shadow-sm border-[3px] border-white">
+                            </div>
+                            <!-- Item 6 -->
+                            <div class="item cursor-pointer" data-gallery-idx="5" onclick="setGalleryImage(5)">
+                                <img loading="lazy" decoding="async" src="images/gallery/gallery-6.webp" alt="Mehndi Design Portfolio 6" class="w-full h-[80px] sm:h-[120px] lg:h-[110px] object-cover rounded-lg transition-all duration-300 shadow-sm border-[3px] border-white">
+                            </div>
+                            <!-- Item 7 -->
+                            <div class="item cursor-pointer" data-gallery-idx="6" onclick="setGalleryImage(6)">
+                                <img loading="lazy" decoding="async" src="images/gallery/gallery-7.webp" alt="Mehndi Design Portfolio 7" class="w-full h-[80px] sm:h-[120px] lg:h-[110px] object-cover rounded-lg transition-all duration-300 shadow-sm border-[3px] border-white">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Side: Large Master Image -->
+                <div class="lg:col-span-7 order-1 lg:order-2 w-full">
+                    <div class="w-full h-[300px] sm:h-[400px] lg:h-[300px] xl:h-[350px] rounded-xl overflow-hidden border-[4px] lg:border-[6px] border-white/20 shadow-xl relative">
+                        <img id="galleryMainImg" loading="lazy" decoding="async" src="images/gallery/gallery-1.webp" alt="Mehndi Design Portfolio 1" alt="Gallery Main" class="w-full h-full object-cover transition-opacity duration-300">
+                    </div>
+                </div>
+
+            </div>
+    </section>
+
+    <!-- 7. PACKAGES SECTION -->
+    <section class="global-section-pad relative bg-bgMain overflow-hidden" id="packages">
+        <!-- Background Mandala Pattern -->
+        <div class="absolute left-[-150px] lg:left-[-250px] bottom-0 lg:top-1/2 lg:-translate-y-1/2 w-[300px] lg:w-[500px] h-[300px] lg:h-[500px] opacity-[0.1] pointer-events-none mix-blend-multiply" 
+             style="background: url('images/about/about-mandala-bg.webp') no-repeat center center / contain;">
+        </div>
+        <div class="absolute right-[-150px] lg:right-[-250px] top-0 lg:top-1/2 lg:-translate-y-1/2 w-[300px] lg:w-[500px] h-[300px] lg:h-[500px] opacity-[0.1] pointer-events-none mix-blend-multiply" 
+             style="background: url('images/about/about-mandala-bg.webp') no-repeat center center / contain;">
+        </div>
+
+        <div class="max-w-[1280px] mx-auto px-4 lg:px-8 relative z-10">
+            <div class="text-center max-w-2xl mx-auto mb-10 lg:mb-14">
+                <div class="text-primary text-[10.5px] font-bold tracking-[3px] uppercase mb-3">
+                    OUR PACKAGES
+                </div>
+                <h2 class="global-heading mb-3 text-center mx-auto max-w-[900px]">
+                    Simple & Transparent Packages
+                </h2>
+                <p class="text-textMain font-medium text-[14.5px]">
+                    Choose the perfect package for your special day.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 lg:gap-4 xl:gap-5">
+                
+                <!-- Basic Package -->
+                <div class="group bg-white rounded-[24px] p-5 lg:p-6 flex flex-col items-center text-center shadow-[0_4px_20px_-10px_rgba(0,0,0,0.05)] hover:shadow-[0_10px_40px_-10px_rgba(107,26,42,0.12)] lg:hover:-translate-y-2 transition-all duration-500 relative border border-primary/10 h-full overflow-hidden">
+                    <div class="absolute top-0 left-0 w-full h-[3px] bg-gradient-to-r from-[#D5A770] to-[#F7E7CE] opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                    <h3 class="font-bold text-[15px] xl:text-[16px] text-textMain mb-1.5">Basic Package</h3>
+                    <div class="font-heading font-bold text-[1.9rem] xl:text-[2.1rem] text-primary mb-2 leading-none">₹1,499</div>
+                    
+                    <hr class="w-[70%] border-primary/10 mb-5 mt-2">
+                    
+                    <ul class="flex flex-col gap-3 mb-7 w-full text-left">
+                        <li class="flex items-start gap-2.5 text-[12.5px] xl:text-[13px] text-textMain font-medium leading-relaxed">
+                            <span class="w-4 h-4 rounded-full bg-[#D5A770]/15 flex items-center justify-center shrink-0 mt-0.5"><i class="fas fa-check text-[#D5A770] text-[9px]"></i></span> Simple Mehndi Design
+                        </li>
+                        <li class="flex items-start gap-2.5 text-[12.5px] xl:text-[13px] text-textMain font-medium leading-relaxed">
+                            <span class="w-4 h-4 rounded-full bg-[#D5A770]/15 flex items-center justify-center shrink-0 mt-0.5"><i class="fas fa-check text-[#D5A770] text-[9px]"></i></span> Hands (Both Sides)
+                        </li>
+                        <li class="flex items-start gap-2.5 text-[12.5px] xl:text-[13px] text-textMain font-medium leading-relaxed">
+                            <span class="w-4 h-4 rounded-full bg-[#D5A770]/15 flex items-center justify-center shrink-0 mt-0.5"><i class="fas fa-check text-[#D5A770] text-[9px]"></i></span> High Quality Henna
+                        </li>
+                        <li class="flex items-start gap-2.5 text-[12.5px] xl:text-[13px] text-textMain font-medium leading-relaxed">
+                            <span class="w-4 h-4 rounded-full bg-[#D5A770]/15 flex items-center justify-center shrink-0 mt-0.5"><i class="fas fa-check text-[#D5A770] text-[9px]"></i></span> Perfect for Small Events
+                        </li>
+                    </ul>
+                    
+                    <a href="https://wa.me/919565365773?text=Hello%20Noor%20Mehndi%20Art,%20I%20want%20to%20book%20a%20package." target="_blank" class="mt-auto w-full border border-primary/20 text-primary py-2.5 rounded-xl font-bold text-[12.5px] hover:bg-primary hover:text-white transition-colors duration-300 flex items-center justify-center gap-2">
+                        Book Now <i class="fas fa-arrow-right text-[10px]"></i>
+                    </a>
+                </div>
+
+                <!-- Engagement Package -->
+                <div class="group bg-white rounded-[24px] p-5 lg:p-6 flex flex-col items-center text-center shadow-[0_4px_20px_-10px_rgba(0,0,0,0.05)] hover:shadow-[0_10px_40px_-10px_rgba(107,26,42,0.12)] lg:hover:-translate-y-2 transition-all duration-500 relative border border-primary/10 h-full overflow-hidden">
+                    <div class="absolute top-0 left-0 w-full h-[3px] bg-gradient-to-r from-[#D5A770] to-[#F7E7CE] opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                    <h3 class="font-bold text-[15px] xl:text-[16px] text-textMain mb-1.5">Engagement Package</h3>
+                    <div class="font-heading font-bold text-[1.9rem] xl:text-[2.1rem] text-primary mb-2 leading-none">₹2,499</div>
+                    
+                    <hr class="w-[70%] border-primary/10 mb-5 mt-2">
+                    
+                    <ul class="flex flex-col gap-3 mb-7 w-full text-left">
+                        <li class="flex items-start gap-2.5 text-[12.5px] xl:text-[13px] text-textMain font-medium leading-relaxed">
+                            <span class="w-4 h-4 rounded-full bg-[#D5A770]/15 flex items-center justify-center shrink-0 mt-0.5"><i class="fas fa-check text-[#D5A770] text-[9px]"></i></span> Elegant & Stylish Designs
+                        </li>
+                        <li class="flex items-start gap-2.5 text-[12.5px] xl:text-[13px] text-textMain font-medium leading-relaxed">
+                            <span class="w-4 h-4 rounded-full bg-[#D5A770]/15 flex items-center justify-center shrink-0 mt-0.5"><i class="fas fa-check text-[#D5A770] text-[9px]"></i></span> Hands (Both Sides)
+                        </li>
+                        <li class="flex items-start gap-2.5 text-[12.5px] xl:text-[13px] text-textMain font-medium leading-relaxed">
+                            <span class="w-4 h-4 rounded-full bg-[#D5A770]/15 flex items-center justify-center shrink-0 mt-0.5"><i class="fas fa-check text-[#D5A770] text-[9px]"></i></span> Custom Patterns
+                        </li>
+                        <li class="flex items-start gap-2.5 text-[12.5px] xl:text-[13px] text-textMain font-medium leading-relaxed">
+                            <span class="w-4 h-4 rounded-full bg-[#D5A770]/15 flex items-center justify-center shrink-0 mt-0.5"><i class="fas fa-check text-[#D5A770] text-[9px]"></i></span> Perfect for Engagement
+                        </li>
+                    </ul>
+                    
+                    <a href="https://wa.me/919565365773?text=Hello%20Noor%20Mehndi%20Art,%20I%20want%20to%20book%20a%20package." target="_blank" class="mt-auto w-full border border-primary/20 text-primary py-2.5 rounded-xl font-bold text-[12.5px] hover:bg-primary hover:text-white transition-colors duration-300 flex items-center justify-center gap-2">
+                        Book Now <i class="fas fa-arrow-right text-[10px]"></i>
+                    </a>
+                </div>
+
+                <!-- Bridal Package -->
+                <div class="group bg-white rounded-[24px] p-5 lg:p-6 flex flex-col items-center text-center shadow-[0_15px_40px_-10px_rgba(107,26,42,0.15)] hover:shadow-[0_20px_50px_-10px_rgba(107,26,42,0.25)] transition-all duration-500 relative border-[2px] border-primary lg:-translate-y-3 lg:hover:-translate-y-4 h-full z-10 overflow-hidden">
+                    <div class="absolute inset-0 bg-gradient-to-b from-primary/5 to-transparent pointer-events-none"></div>
+                    
+                    <div class="absolute -top-[1px] left-1/2 -translate-x-1/2 bg-gradient-to-r from-[#8E2B3D] to-primary text-white text-[10.5px] font-bold px-4 py-1 rounded-b-lg shadow-sm whitespace-nowrap tracking-widest uppercase">
+                        Most Popular
+                    </div>
+                    
+                    <h3 class="font-bold text-[15px] xl:text-[16px] text-textMain mb-1.5 mt-3 relative z-10">Bridal Package</h3>
+                    <div class="font-heading font-bold text-[2rem] xl:text-[2.2rem] text-primary mb-2 leading-none relative z-10">₹4,499</div>
+                    
+                    <hr class="w-[70%] border-primary/10 mb-5 mt-2 relative z-10">
+                    
+                    <ul class="flex flex-col gap-3 mb-7 w-full text-left relative z-10">
+                        <li class="flex items-start gap-2.5 text-[12.5px] xl:text-[13px] text-textMain font-medium leading-relaxed">
+                            <span class="w-4 h-4 rounded-full bg-primary/10 flex items-center justify-center shrink-0 mt-0.5"><i class="fas fa-check text-primary text-[9px]"></i></span> Intricate Bridal Designs
+                        </li>
+                        <li class="flex items-start gap-2.5 text-[12.5px] xl:text-[13px] text-textMain font-medium leading-relaxed">
+                            <span class="w-4 h-4 rounded-full bg-primary/10 flex items-center justify-center shrink-0 mt-0.5"><i class="fas fa-check text-primary text-[9px]"></i></span> Hands & Arms
+                        </li>
+                        <li class="flex items-start gap-2.5 text-[12.5px] xl:text-[13px] text-textMain font-medium leading-relaxed">
+                            <span class="w-4 h-4 rounded-full bg-primary/10 flex items-center justify-center shrink-0 mt-0.5"><i class="fas fa-check text-primary text-[9px]"></i></span> Premium Quality Henna
+                        </li>
+                        <li class="flex items-start gap-2.5 text-[12.5px] xl:text-[13px] text-textMain font-medium leading-relaxed">
+                            <span class="w-4 h-4 rounded-full bg-primary/10 flex items-center justify-center shrink-0 mt-0.5"><i class="fas fa-check text-primary text-[9px]"></i></span> Personalized Design
+                        </li>
+                    </ul>
+                    
+                    <a href="https://wa.me/919565365773?text=Hello%20Noor%20Mehndi%20Art,%20I%20want%20to%20book%20a%20package." target="_blank" class="mt-auto w-full bg-primary text-white py-2.5 rounded-xl font-bold text-[12.5px] hover:bg-[#8E2B3D] transition-colors duration-300 flex items-center justify-center gap-2 shadow-[0_8px_20px_-6px_rgba(107,26,42,0.4)] hover:shadow-[0_12px_25px_-6px_rgba(107,26,42,0.5)] relative z-10">
+                        Book Now <i class="fas fa-arrow-right text-[10px]"></i>
+                    </a>
+                </div>
+
+                <!-- Custom Package -->
+                <div class="group bg-white rounded-[24px] p-5 lg:p-6 flex flex-col items-center text-center shadow-[0_4px_20px_-10px_rgba(0,0,0,0.05)] hover:shadow-[0_10px_40px_-10px_rgba(107,26,42,0.12)] lg:hover:-translate-y-2 transition-all duration-500 relative border border-primary/10 h-full overflow-hidden">
+                    <div class="absolute top-0 left-0 w-full h-[3px] bg-gradient-to-r from-[#D5A770] to-[#F7E7CE] opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                    <h3 class="font-bold text-[15px] xl:text-[16px] text-textMain mb-1.5">Custom Package</h3>
+                    <div class="font-heading font-bold text-[1.9rem] xl:text-[2.1rem] text-primary mb-2 leading-none">₹3,499</div>
+                    
+                    <hr class="w-[70%] border-primary/10 mb-5 mt-2">
+                    
+                    <ul class="flex flex-col gap-3 mb-7 w-full text-left">
+                        <li class="flex items-start gap-2.5 text-[12.5px] xl:text-[13px] text-textMain font-medium leading-relaxed">
+                            <span class="w-4 h-4 rounded-full bg-[#D5A770]/15 flex items-center justify-center shrink-0 mt-0.5"><i class="fas fa-check text-[#D5A770] text-[9px]"></i></span> As per Your Requirement
+                        </li>
+                        <li class="flex items-start gap-2.5 text-[12.5px] xl:text-[13px] text-textMain font-medium leading-relaxed">
+                            <span class="w-4 h-4 rounded-full bg-[#D5A770]/15 flex items-center justify-center shrink-0 mt-0.5"><i class="fas fa-check text-[#D5A770] text-[9px]"></i></span> Hands / Arms / Legs
+                        </li>
+                        <li class="flex items-start gap-2.5 text-[12.5px] xl:text-[13px] text-textMain font-medium leading-relaxed">
+                            <span class="w-4 h-4 rounded-full bg-[#D5A770]/15 flex items-center justify-center shrink-0 mt-0.5"><i class="fas fa-check text-[#D5A770] text-[9px]"></i></span> Unique Custom Designs
+                        </li>
+                        <li class="flex items-start gap-2.5 text-[12.5px] xl:text-[13px] text-textMain font-medium leading-relaxed">
+                            <span class="w-4 h-4 rounded-full bg-[#D5A770]/15 flex items-center justify-center shrink-0 mt-0.5"><i class="fas fa-check text-[#D5A770] text-[9px]"></i></span> For Any Special Occasion
+                        </li>
+                    </ul>
+                    
+                    <a href="https://wa.me/919565365773?text=Hello%20Noor%20Mehndi%20Art,%20I%20want%20to%20book%20a%20package." target="_blank" class="mt-auto w-full border border-primary/20 text-primary py-2.5 rounded-xl font-bold text-[12.5px] hover:bg-primary hover:text-white transition-colors duration-300 flex items-center justify-center gap-2">
+                        Book Now <i class="fas fa-arrow-right text-[10px]"></i>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="reviews" class="section-padding relative overflow-hidden">
+        <!-- Background Pattern Right -->
+        <div class="absolute top-1/2 right-0 w-[400px] lg:w-[500px] h-[400px] lg:h-[500px] opacity-[0.08] pointer-events-none translate-x-[30%] -translate-y-1/2"
+             style="background: url('images/about/about-mandala-bg.webp') no-repeat center center / contain;">
+        </div>
+
+        <div class="max-w-[1280px] mx-auto px-4 lg:px-8 relative z-10">
+            <div class="flex flex-col md:flex-row md:items-end md:justify-between mb-10 lg:mb-14">
+                <div class="text-center md:text-left max-w-2xl mx-auto md:mx-0">
+                    <div class="text-primary text-[10.5px] font-bold tracking-[3px] uppercase mb-3">
+                        TESTIMONIALS
+                    </div>
+                    <h2 class="global-heading mb-3 max-w-[900px]">
+                        Words of Love
+                    </h2>
+                    <p class="text-textMain font-medium text-[14.5px]">
+                        Read what our beautiful brides and clients have to say.
+                    </p>
+                </div>
+                
+                <div class="flex items-center gap-4 mt-6 md:mt-0 justify-center md:justify-end shrink-0">
+                    <button class="reviews-prev w-11 h-11 lg:w-12 lg:h-12 rounded-full border border-primary/20 flex items-center justify-center text-primary hover:bg-primary hover:text-white transition group relative overflow-hidden">
+                        <i class="fas fa-chevron-left text-[13px] lg:text-[14px] relative z-10"></i>
+                    </button>
+                    <button class="reviews-next w-11 h-11 lg:w-12 lg:h-12 rounded-full bg-primary flex items-center justify-center text-white hover:bg-[#8E2B3D] transition shadow-md group relative overflow-hidden">
+                        <i class="fas fa-chevron-right text-[13px] lg:text-[14px] relative z-10"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="hidden md:block w-full">
+                <div id="reviews-carousel-desktop" class="owl-carousel owl-theme">
+                    
+                    <!-- Review 1 -->
+                    <div class="item h-full pb-4">
+                        <div class="bg-white rounded-[16px] lg:rounded-[20px] p-5 lg:p-7 flex gap-4 lg:gap-5 items-start shadow-[0_4px_20px_-10px_rgba(0,0,0,0.05)] hover:shadow-[0_10px_40px_-10px_rgba(107,26,42,0.08)] transition-all duration-300 border border-primary/5 h-full">
+                            <img loading="lazy" decoding="async" src="images/gallery/gallery-1.webp" alt="Mehndi Design Portfolio 1" alt="Priya Sharma" class="w-[50px] h-[50px] lg:w-[65px] lg:h-[65px] rounded-full object-cover shadow-sm shrink-0 border border-black/5" style="width: 65px !important; height: 65px !important; min-width: 50px;">
+                            <div class="flex flex-col">
+                                <div class="flex gap-1 text-[#D5A770] text-[11px] lg:text-[13px] mb-2.5">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <p class="text-textMain text-[12px] xl:text-[13.5px] font-medium leading-relaxed mb-4">
+                                    "Absolutely loved my bridal mehndi! The designs were so beautiful and detailed. Highly recommended!"
+                                </p>
+                                <h4 class="text-textMain font-bold text-[12.5px] lg:text-[13.5px] mb-0.5">- Priya Sharma</h4>
+                                <span class="text-textMain/60 text-[11px] lg:text-[12px] font-medium">Bride</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Review 2 -->
+                    <div class="item h-full pb-4">
+                        <div class="bg-white rounded-[16px] lg:rounded-[20px] p-5 lg:p-7 flex gap-4 lg:gap-5 items-start shadow-[0_4px_20px_-10px_rgba(0,0,0,0.05)] hover:shadow-[0_10px_40px_-10px_rgba(107,26,42,0.08)] transition-all duration-300 border border-primary/5 h-full">
+                            <img loading="lazy" decoding="async" src="images/gallery/gallery-2.webp" alt="Mehndi Design Portfolio 2" alt="Neha Patel" class="w-[50px] h-[50px] lg:w-[65px] lg:h-[65px] rounded-full object-cover shadow-sm shrink-0 border border-black/5" style="width: 65px !important; height: 65px !important; min-width: 50px;">
+                            <div class="flex flex-col">
+                                <div class="flex gap-1 text-[#D5A770] text-[11px] lg:text-[13px] mb-2.5">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <p class="text-textMain text-[12px] xl:text-[13.5px] font-medium leading-relaxed mb-4">
+                                    "Very professional, friendly and creative. She made my engagement even more special!"
+                                </p>
+                                <h4 class="text-textMain font-bold text-[12.5px] lg:text-[13.5px] mb-0.5">- Neha Patel</h4>
+                                <span class="text-textMain/60 text-[11px] lg:text-[12px] font-medium">Engagement Client</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Review 3 -->
+                    <div class="item h-full pb-4">
+                        <div class="bg-white rounded-[16px] lg:rounded-[20px] p-5 lg:p-7 flex gap-4 lg:gap-5 items-start shadow-[0_4px_20px_-10px_rgba(0,0,0,0.05)] hover:shadow-[0_10px_40px_-10px_rgba(107,26,42,0.08)] transition-all duration-300 border border-primary/5 h-full">
+                            <img loading="lazy" decoding="async" src="images/gallery/gallery-3.webp" alt="Mehndi Design Portfolio 3" alt="Ayesha Khan" class="w-[50px] h-[50px] lg:w-[65px] lg:h-[65px] rounded-full object-cover shadow-sm shrink-0 border border-black/5" style="width: 65px !important; height: 65px !important; min-width: 50px;">
+                            <div class="flex flex-col">
+                                <div class="flex gap-1 text-[#D5A770] text-[11px] lg:text-[13px] mb-2.5">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <p class="text-textMain text-[12px] xl:text-[13.5px] font-medium leading-relaxed mb-4">
+                                    "Beautiful designs and on-time service. Everyone loved my mehndi!"
+                                </p>
+                                <h4 class="text-textMain font-bold text-[12.5px] lg:text-[13.5px] mb-0.5">- Ayesha Khan</h4>
+                                <span class="text-textMain/60 text-[11px] lg:text-[12px] font-medium">Wedding Guest</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="block md:hidden w-full">
+                <div id="reviews-carousel-mobile" class="owl-carousel owl-theme">
+                    <!-- Slide 1 (2 Reviews) -->
+                    <div class="item pb-4 flex flex-col gap-4">
+                        <!-- Review 1 -->
+                        <div class="bg-white rounded-[16px] p-5 flex gap-4 items-start shadow-[0_4px_20px_-10px_rgba(0,0,0,0.05)] border border-primary/5 w-full">
+                            <img loading="lazy" decoding="async" src="images/gallery/gallery-1.webp" alt="Mehndi Design Portfolio 1" alt="Priya Sharma" class="w-[55px] h-[55px] rounded-full object-cover shadow-sm shrink-0 border border-black/5" style="width: 55px !important; height: 55px !important; min-width: 55px;">
+                            <div class="flex flex-col">
+                                <div class="flex gap-1 text-[#D5A770] text-[12px] mb-2">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <p class="text-textMain text-[12.5px] font-medium leading-relaxed mb-3">
+                                    "Absolutely loved my bridal mehndi! The designs were so beautiful and detailed. Highly recommended!"
+                                </p>
+                                <h4 class="text-textMain font-bold text-[13px] mb-0.5">- Priya Sharma</h4>
+                                <span class="text-textMain/60 text-[11px] font-medium">Bride</span>
+                            </div>
+                        </div>
+                        
+                        <!-- Review 2 -->
+                        <div class="bg-white rounded-[16px] p-5 flex gap-4 items-start shadow-[0_4px_20px_-10px_rgba(0,0,0,0.05)] border border-primary/5 w-full">
+                            <img loading="lazy" decoding="async" src="images/gallery/gallery-2.webp" alt="Mehndi Design Portfolio 2" alt="Neha Patel" class="w-[55px] h-[55px] rounded-full object-cover shadow-sm shrink-0 border border-black/5" style="width: 55px !important; height: 55px !important; min-width: 55px;">
+                            <div class="flex flex-col">
+                                <div class="flex gap-1 text-[#D5A770] text-[12px] mb-2">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <p class="text-textMain text-[12.5px] font-medium leading-relaxed mb-3">
+                                    "Very professional, friendly and creative. She made my engagement even more special!"
+                                </p>
+                                <h4 class="text-textMain font-bold text-[13px] mb-0.5">- Neha Patel</h4>
+                                <span class="text-textMain/60 text-[11px] font-medium">Engagement Client</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Slide 2 (1 Review remaining) -->
+                    <div class="item pb-4 flex flex-col gap-4">
+                        <div class="bg-white rounded-[16px] p-5 flex gap-4 items-start shadow-[0_4px_20px_-10px_rgba(0,0,0,0.05)] border border-primary/5 w-full">
+                            <img loading="lazy" decoding="async" src="images/gallery/gallery-3.webp" alt="Mehndi Design Portfolio 3" alt="Ayesha Khan" class="w-[55px] h-[55px] rounded-full object-cover shadow-sm shrink-0 border border-black/5" style="width: 55px !important; height: 55px !important; min-width: 55px;">
+                            <div class="flex flex-col">
+                                <div class="flex gap-1 text-[#D5A770] text-[12px] mb-2">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <p class="text-textMain text-[12.5px] font-medium leading-relaxed mb-3">
+                                    "Beautiful designs and on-time service. Everyone loved my mehndi!"
+                                </p>
+                                <h4 class="text-textMain font-bold text-[13px] mb-0.5">- Ayesha Khan</h4>
+                                <span class="text-textMain/60 text-[11px] font-medium">Wedding Guest</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BOOKING & FAQ SECTION -->
+    <section class="global-section-pad relative bg-bgMain overflow-hidden" id="booking-faq">
+        <div class="max-w-[1280px] mx-auto px-4 lg:px-8 relative z-10">
+            
+            <!-- Watermarks Anchored to Container -->
+            <!-- Top Left Mandala (Behind CTA) -->
+            <div class="absolute left-[-20px] lg:left-[-60px] top-[-30px] lg:top-[-60px] w-[200px] lg:w-[350px] h-[200px] lg:h-[350px] opacity-[0.06] pointer-events-none mix-blend-multiply grayscale contrast-125 brightness-110 z-0" 
+                 style="background: url('images/about/about-mandala-bg.webp') no-repeat center center / contain;">
+            </div>
+            <!-- Top Right Mandala (Behind FAQ) -->
+            <div class="absolute right-[-20px] lg:right-[-60px] top-[-30px] lg:top-[-60px] w-[200px] lg:w-[350px] h-[200px] lg:h-[350px] opacity-[0.06] pointer-events-none mix-blend-multiply grayscale contrast-125 brightness-110 z-0" 
+                 style="background: url('images/about/about-mandala-bg.webp') no-repeat center center / contain;">
+            </div>
+            <!-- Bottom Right Floral (Behind FAQ) -->
+            <div class="absolute right-[10%] lg:right-[15%] bottom-[-50px] lg:bottom-[-20px] w-[250px] lg:w-[450px] h-[250px] lg:h-[450px] opacity-[0.15] pointer-events-none mix-blend-multiply grayscale contrast-125 brightness-110 z-0" 
+                 style="background: url('images/hero/hero-floral-pattern.webp') no-repeat bottom center / contain;">
+            </div>
+
+            <!-- Grid Content -->
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-start lg:items-stretch relative z-10">
+                
+                <!-- Column 1: Call to Action -->
+                <div class="w-full flex flex-col h-full">
+                    <div class="relative rounded-2xl overflow-hidden shadow-2xl ring-1 ring-[#D5A770]/60 border-[6px] md:border-[8px] border-white h-full flex flex-col justify-center">
+                        <!-- Background Image & Overlay -->
+                        <div class="absolute inset-0 bg-gradient-to-r from-[#32171E]/95 via-black/40 to-[#32171E]/95 z-10"></div>
+                        <img loading="lazy" decoding="async" src="images/cta/cta-bg.jpg" alt="Bridal Mehndi Booking" class="absolute inset-0 w-full h-full object-cover transform scale-105">
+                        
+                        <!-- Content -->
+                        <div class="relative z-20 py-10 md:py-14 px-6 text-center flex flex-col items-center">
+                            <h2 class="font-serif text-[28px] md:text-[38px] text-white font-bold mb-3 md:mb-4 leading-[1.15] drop-shadow-lg">
+                                Ready to Book Your <br class="hidden xl:block"> <span class="text-[#D5A770]">Special Date?</span>
+                            </h2>
+                            <p class="text-[#E8DCC4] text-[14px] md:text-[15px] mb-8 md:mb-10 max-w-lg mx-auto leading-relaxed drop-shadow-md font-medium">
+                                Let's make your special moments even more beautiful<br class="hidden xl:block"> with unique, creative, and intricate mehndi designs.
+                            </p>
+                            
+                            <div class="flex flex-col sm:flex-row gap-4 mb-8 w-full sm:w-auto">
+                                <a href="tel:+919565365773" class="bg-[#8E2B3D] hover:bg-[#6b1a2a] border-[1px] border-[#D5A770] text-white rounded-full px-8 py-3 flex items-center justify-center gap-3 font-bold text-[13px] md:text-[14px] uppercase tracking-wider transition-all duration-300 shadow-[0_8px_20px_rgba(142,43,61,0.3)] hover:-translate-y-1 w-full sm:w-auto min-w-[200px]">
+                                    <i class="fas fa-phone-alt"></i> Call Now
+                                </a>
+                                <a href="https://wa.me/919565365773?text=Hello%20Noor%20Mehndi%20Art,%20I%20would%20like%20to%20inquire%20about%20your%20services." class="bg-[#25D366] hover:bg-[#1EBE5D] text-white rounded-full px-8 py-3 flex items-center justify-center gap-3 font-bold text-[13px] md:text-[14px] uppercase tracking-wider transition-all duration-300 shadow-[0_8px_20px_rgba(37,211,102,0.3)] hover:-translate-y-1 w-full sm:w-auto min-w-[200px]">
+                                    <i class="fab fa-whatsapp text-[18px]"></i> WhatsApp
+                                </a>
+                            </div>
+                            
+                            <div class="flex flex-wrap items-center justify-center gap-3 drop-shadow-md">
+                                <div class="h-[1px] w-8 bg-[#D5A770]/50 hidden sm:block"></div>
+                                <span class="w-6 h-6 rounded-full flex items-center justify-center bg-[#D5A770]/20 text-[#D5A770] border border-[#D5A770]/30 shadow-sm">
+                                    <i class="fas fa-calendar-alt text-[10px]"></i>
+                                </span>
+                                <span class="text-[#D5A770] text-[11px] md:text-[12px] uppercase tracking-[2px] font-bold">Weddings & Events</span>
+                                <div class="h-[1px] w-8 bg-[#D5A770]/50 hidden sm:block"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Column 2: FAQ -->
+                <div class="w-full flex flex-col justify-center py-4 lg:py-0">
+                    <!-- ==========================================================================
+     GLOBAL HEADER & NAVIGATION
+     Sticky navbar with desktop and mobile layouts
+     ========================================================================== -->
+                    <div class="mb-8 md:mb-10 text-left">
+                        <span class="text-primary font-bold tracking-[2px] text-[12px] uppercase mb-2 block">FAQ</span>
+                        <h2 class="global-heading text-left">Frequently Asked Questions</h2>
+                    </div>
+                    
+                    <!-- Accordion Container -->
+                    <div class="w-full flex flex-col gap-3 lg:gap-4 accordion-container">
+                
+                <!-- FAQ Item 1 -->
+                <div class="faq-item bg-white/60 border border-[#D5A770]/40 rounded-xl overflow-hidden transition-all duration-300 hover:border-[#D5A770]/70">
+                    <button class="faq-button w-full px-6 py-4 md:py-5 flex justify-between items-center text-left focus:outline-none">
+                        <span class="text-textMain font-bold text-[14px] md:text-[15.5px]">How far in advance should I book?</span>
+                        <i class="fas fa-plus text-[#D5A770] text-[14px] transition-transform duration-300 shrink-0 ml-4"></i>
+                    </button>
+                    <div class="faq-content hidden px-6 pb-5">
+                        <p class="text-textMain/80 text-[13.5px] md:text-[14.5px] leading-relaxed">
+                            It is recommended to book your date at least 2 to 3 months in advance, especially during the peak wedding season, to ensure availability and proper planning for your special day.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 2 -->
+                <div class="faq-item bg-white/60 border border-[#D5A770]/40 rounded-xl overflow-hidden transition-all duration-300 hover:border-[#D5A770]/70">
+                    <button class="faq-button w-full px-6 py-4 md:py-5 flex justify-between items-center text-left focus:outline-none">
+                        <span class="text-textMain font-bold text-[14px] md:text-[15.5px]">Do you use natural and safe mehndi?</span>
+                        <i class="fas fa-plus text-[#D5A770] text-[14px] transition-transform duration-300 shrink-0 ml-4"></i>
+                    </button>
+                    <div class="faq-content hidden px-6 pb-5">
+                        <p class="text-textMain/80 text-[13.5px] md:text-[14.5px] leading-relaxed">
+                            Yes! We prepare our own organic mehndi paste using 100% natural henna powder, essential oils, and lemon juice. It is completely free from chemicals, safe for the skin, and gives a rich, dark stain.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 3 -->
+                <div class="faq-item bg-white/60 border border-[#D5A770]/40 rounded-xl overflow-hidden transition-all duration-300 hover:border-[#D5A770]/70">
+                    <button class="faq-button w-full px-6 py-4 md:py-5 flex justify-between items-center text-left focus:outline-none">
+                        <span class="text-textMain font-bold text-[14px] md:text-[15.5px]">Can you travel to my location?</span>
+                        <i class="fas fa-plus text-[#D5A770] text-[14px] transition-transform duration-300 shrink-0 ml-4"></i>
+                    </button>
+                    <div class="faq-content hidden px-6 pb-5">
+                        <p class="text-textMain/80 text-[13.5px] md:text-[14.5px] leading-relaxed">
+                            Absolutely. We provide on-location services for brides and their families. Travel charges may apply depending on the distance from our studio to your venue.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 4 -->
+                <div class="faq-item bg-white/60 border border-[#D5A770]/40 rounded-xl overflow-hidden transition-all duration-300 hover:border-[#D5A770]/70">
+                    <button class="faq-button w-full px-6 py-4 md:py-5 flex justify-between items-center text-left focus:outline-none">
+                        <span class="text-textMain font-bold text-[14px] md:text-[15.5px]">How long does the mehndi last?</span>
+                        <i class="fas fa-plus text-[#D5A770] text-[14px] transition-transform duration-300 shrink-0 ml-4"></i>
+                    </button>
+                    <div class="faq-content hidden px-6 pb-5">
+                        <p class="text-textMain/80 text-[13.5px] md:text-[14.5px] leading-relaxed">
+                            A good natural mehndi stain typically lasts between 7 to 14 days. The longevity depends on how well you follow the aftercare instructions and how frequently the design is exposed to soap and water.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 5 -->
+                <div class="faq-item bg-white/60 border border-[#D5A770]/40 rounded-xl overflow-hidden transition-all duration-300 hover:border-[#D5A770]/70">
+                    <button class="faq-button w-full px-6 py-4 md:py-5 flex justify-between items-center text-left focus:outline-none">
+                        <span class="text-textMain font-bold text-[14px] md:text-[15.5px]">Do you take customized design requests?</span>
+                        <i class="fas fa-plus text-[#D5A770] text-[14px] transition-transform duration-300 shrink-0 ml-4"></i>
+                    </button>
+                    <div class="faq-content hidden px-6 pb-5">
+                        <p class="text-textMain/80 text-[13.5px] md:text-[14.5px] leading-relaxed">
+                            Yes, we specialize in personalized bridal mehndi. Whether you want portraits, skylines, proposal stories, or specific motifs incorporated into your design, we can create a completely bespoke pattern for you.
+                        </p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- 10. CONTACT & LOCATION SECTION -->
+    <section class="global-section-pad relative bg-white overflow-hidden" id="contact">
+        <div class="max-w-[1280px] mx-auto px-4 lg:px-8 relative z-10">
+            <!-- ==========================================================================
+     GLOBAL HEADER & NAVIGATION
+     Sticky navbar with desktop and mobile layouts
+     ========================================================================== -->
+            <div class="mb-10 lg:mb-12 text-center">
+                <span class="text-primary font-bold tracking-[2px] text-[12px] uppercase mb-2 block">Get in Touch</span>
+                <h2 class="global-heading">Contact & Location</h2>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-0 items-stretch bg-bgMain rounded-2xl overflow-hidden shadow-xl border border-[#D5A770]/30">
+                
+                <!-- Column 1: NAP (Name, Address, Phone) -->
+                <div class="p-5 md:p-7 lg:p-8 flex flex-col justify-center">
+                    <h3 class="font-serif text-[22px] md:text-[26px] font-bold text-primary mb-2 leading-tight">Noor Mehndi Art</h3>
+                    <p class="text-textMain/80 text-[13px] md:text-[14px] mb-5 leading-relaxed max-w-md">
+                        We would love to hear from you! Whether you want to book a bridal package or have a query about our services, feel free to reach out.
+                    </p>
+                    
+                    <div class="flex flex-col gap-4">
+                        <!-- Address -->
+                        <div class="flex items-start gap-3 md:gap-4">
+                            <div class="w-9 h-9 rounded-full bg-white shadow-sm border border-[#D5A770]/30 flex items-center justify-center shrink-0 text-primary text-[14px]">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="pt-0.5">
+                                <h4 class="text-[13px] font-bold text-textMain mb-0.5 uppercase tracking-[0.5px]">Studio Address</h4>
+                                <p class="text-[13px] text-textMain/70 leading-[1.4]">123 Mehndi Avenue, Fashion Street<br>Mumbai, Maharashtra 400001, India</p>
+                            </div>
+                        </div>
+                        
+                        <!-- Phone -->
+                        <div class="flex items-start gap-3 md:gap-4">
+                            <div class="w-9 h-9 rounded-full bg-white shadow-sm border border-[#D5A770]/30 flex items-center justify-center shrink-0 text-primary text-[14px]">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div class="pt-0.5">
+                                <h4 class="text-[13px] font-bold text-textMain mb-0.5 uppercase tracking-[0.5px]">Phone & WhatsApp</h4>
+                                <p class="text-[13px] text-textMain/70"><a href="tel:+919565365773" class="hover:text-primary transition-colors font-medium">+91 95653 65773</a></p>
+                            </div>
+                        </div>
+                        
+                        <!-- Email -->
+                        <div class="flex items-start gap-3 md:gap-4">
+                            <div class="w-9 h-9 rounded-full bg-white shadow-sm border border-[#D5A770]/30 flex items-center justify-center shrink-0 text-primary text-[14px]">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="pt-0.5">
+                                <h4 class="text-[13px] font-bold text-textMain mb-0.5 uppercase tracking-[0.5px]">Email Address</h4>
+                                <p class="text-[13px] text-textMain/70"><a href="mailto:hello@noormehndi.com" class="hover:text-primary transition-colors font-medium">hello@noormehndi.com</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Social Links -->
+                    <div class="mt-6 pt-5 border-t border-[#D5A770]/20">
+                        <h4 class="text-[11px] font-bold text-textMain mb-3 uppercase tracking-[1.5px]">Follow Our Art</h4>
+                        <div class="flex items-center gap-2.5">
+                            <a href="https://instagram.com" target="_blank" class="w-8 h-8 rounded-full bg-white text-primary flex items-center justify-center shadow-sm border border-[#D5A770]/30 hover:bg-primary hover:text-white transition-all duration-300 hover:-translate-y-1"><i class="fab fa-instagram text-[13px]"></i></a>
+                            <a href="https://facebook.com" target="_blank" class="w-8 h-8 rounded-full bg-white text-primary flex items-center justify-center shadow-sm border border-[#D5A770]/30 hover:bg-primary hover:text-white transition-all duration-300 hover:-translate-y-1"><i class="fab fa-facebook-f text-[13px]"></i></a>
+                            <a href="https://youtube.com" target="_blank" class="w-8 h-8 rounded-full bg-white text-primary flex items-center justify-center shadow-sm border border-[#D5A770]/30 hover:bg-primary hover:text-white transition-all duration-300 hover:-translate-y-1"><i class="fab fa-youtube text-[13px]"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Column 2: Map Embed -->
+                <div class="w-full h-[250px] md:h-[300px] lg:h-auto relative bg-gray-100 border-t lg:border-t-0 lg:border-l border-[#D5A770]/30">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d241317.11609823277!2d72.74109995709657!3d19.08219783958221!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c6306644edc1%3A0x5da4ed8f8d648c69!2sMumbai%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1684824874312!5m2!1sen!2sin" 
+                        class="absolute inset-0 w-full h-full border-0 grayscale opacity-90 contrast-125 hover:grayscale-0 hover:opacity-100 transition-all duration-500" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- 11. FOOTER SECTION -->
+    <footer class="bg-primary text-[#E8DCC4] py-8 relative overflow-hidden border-t border-[#D5A770]/20">
+        
+        <div class="max-w-[1280px] mx-auto px-4 lg:px-8 relative z-10 flex flex-col md:flex-row items-center justify-between gap-5 text-center md:text-left">
+            
+            <!-- Copyright -->
+            <div class="text-[12px] opacity-80 font-medium tracking-wide">
+                &copy; 2026 <strong class="text-[#D5A770] font-serif tracking-normal text-[14px]">Noor Mehndi</strong>. All rights reserved.
+            </div>
+            
+            <!-- Legal Links -->
+            <ul class="flex flex-wrap items-center justify-center md:justify-end gap-4 md:gap-6">
+                <li><a href="#" class="text-[11px] md:text-[12px] uppercase tracking-[1px] font-medium hover:text-[#D5A770] transition-colors">Privacy Policy</a></li>
+                <li><a href="#" class="text-[11px] md:text-[12px] uppercase tracking-[1px] font-medium hover:text-[#D5A770] transition-colors">Terms & Conditions</a></li>
+                <li><a href="#" class="text-[11px] md:text-[12px] uppercase tracking-[1px] font-medium hover:text-[#D5A770] transition-colors">Disclaimer</a></li>
+            </ul>
+            
+        </div>
+    </footer>
+
+    <!-- FLOATING ACTION BUTTONS -->
+    <div class="fixed bottom-6 right-6 lg:bottom-8 lg:right-8 z-[90] flex flex-col gap-3.5">
+        <!-- Location -->
+        <a href="#contact" class="w-12 h-12 lg:w-14 lg:h-14 rounded-full bg-primary text-white flex items-center justify-center text-lg lg:text-xl shadow-[0_4px_15px_rgba(115,22,38,0.4)] hover:-translate-y-1 hover:shadow-[0_6px_20px_rgba(115,22,38,0.5)] transition-all duration-300" aria-label="Location" title="Visit our Studio">
+            <i class="fas fa-map-marker-alt"></i>
+        </a>
+        <!-- Call -->
+        <a href="tel:+919565365773" class="w-12 h-12 lg:w-14 lg:h-14 rounded-full bg-[#D5A770] text-white flex items-center justify-center text-lg lg:text-xl shadow-[0_4px_15px_rgba(213,167,112,0.4)] hover:-translate-y-1 hover:shadow-[0_6px_20px_rgba(213,167,112,0.5)] transition-all duration-300" aria-label="Call Us" title="Call Us">
+            <i class="fas fa-phone-alt"></i>
+        </a>
+        <!-- WhatsApp -->
+        <a href="https://wa.me/919565365773?text=Hello%20Noor%20Mehndi%20Art,%20I%20would%20like%20to%20inquire%20about%20your%20services." target="_blank" class="w-12 h-12 lg:w-14 lg:h-14 rounded-full bg-[#25D366] text-white flex items-center justify-center text-[22px] lg:text-[26px] shadow-[0_4px_15px_rgba(37,211,102,0.4)] hover:-translate-y-1 hover:shadow-[0_6px_20px_rgba(37,211,102,0.5)] transition-all duration-300" aria-label="WhatsApp" title="Chat on WhatsApp">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+    </div>
+
+    <!-- jQuery & Owl Carousel (Deferred for Speed) -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" media="print" onload="this.media='all'" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" defer></script>
+
+    <!-- Init Interactive UI Logic (Externalized for clean code & maintainability) -->
+    <script src="script.js" defer></script>
+  </body>
+</html>
