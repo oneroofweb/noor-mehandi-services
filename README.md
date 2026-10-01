@@ -54,6 +54,7 @@ Since this is a static frontend project, no complex build tools are required.
 2. Open `index.html` directly in any modern browser, or use a local live server (like VS Code Live Server) for hot reloading.
 
 ## 👨‍💻 Developed By
+**Athar Ali**  
 Expert Frontend Development emphasizing modularity, performance, and premium UI/UX design.
 
 ---
