@@ -1,9 +1,9 @@
 /**
  * ============================================================================
- * Noor Mehndi Art - Main Script File
+ * Akash Bridal Mehandi - Main Script File
  * ============================================================================
  * 
- * Description: Contains all interactive logic for the Noor Mehndi Art website.
+ * Description: Contains all interactive logic for the Akash Bridal Mehandi website.
  * Developed by: Frontend Expert Developer
  * Version: 1.0.0
  * Dependencies: jQuery (v3.7.1), Owl Carousel 2 (v2.3.4)
